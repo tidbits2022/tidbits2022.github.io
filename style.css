@@ -1,6 +1,84 @@
+@font-face {
+    font-family: "Gameplay"; 
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg"); }
+
+@font-face {
+    font-family: "DisposableDroidBB"; 
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot"); 
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg"); 
+    }
+
+    @font-face {
+        font-family: "VT323-Regular"; 
+        src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
+        src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
+        }
+    
 body {
     background-color: #EDF4FE;
     text-align: center;
+    background-image: url(https://lh6.googleusercontent.com/38ETroIGkBRbTydePTIvsUukzhox2dIe60mrTWijejXr-30MNndWh3wvKTZ6CMmhH0g=w2400);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
-h1 {}
+h1 {
+    font-family: "DisposableDroidBB";
+    color:#00205d;
+    font-size: 8vh;
+    position: absolute;
+    top:-2vh;
+    left: 18.5vw;
+}
+p {
+    font-family: "DisposableDroidBB";
+    font-size: 4vh;
+    color: #00205d;
+    font-weight: bold;
+}
+
+.tidbitslogo {
+    width:15vw;
+    height: 22vh;
+    position:absolute;
+    top:-3vh;
+    left: 54vw;
+}
+
+
+
+.notintro {
+    position: relative;
+    top:4vh;
+}
+
+.allbuth1{
+    position: absolute;
+    top: 12vh;
+}
+
+.mega {
+    width:65%;
+    position:absolute;
+    left:17.5vw;
+}
+
+button {
+    font-family: "DisposableDroidBB";
+    font-size: 4vh;
+    color: white;
+    background-color: #00205d;
+    border-radius: 6vw;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1vw 1.5vw;
+    justify-self: center;
+    line-height: 0.5vw;
+    position: relative;
+    margin: -2vh;
+}
