@@ -28,7 +28,7 @@ body {
 h1 {
     font-family: "DisposableDroidBB";
     color:#00205d;
-    font-size: 7vh;
+    font-size: 8vh;
     position: absolute;
     top:-2vh;
     left: 18.5vw;
@@ -41,10 +41,10 @@ p {
 }
 
 .tidbitslogo {
-    width: 15vw;
-    height: 22vw;
+    width:15vw;
+    height: auto;
     position:absolute;
-    top:-3vh;
+    top:-5vh;
     left: 56vw;
 }
 
