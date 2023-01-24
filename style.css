@@ -79,15 +79,15 @@ button:hover {
     display: flex;
     justify-content: center;
     padding-bottom: 0px;
+    display: flex;
+    align-items:center;
 }
 
 .tidbitslogo {
     position: inline;
-    width: 170px;
-    height: 73px;
-    margin-top: 15px;
+    width: 15%;
+    height: auto;
     margin-left: 20px;
-    padding-bottom: 0px;
 }
 
 h1 {
