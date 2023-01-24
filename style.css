@@ -41,8 +41,8 @@ p {
 }
 
 .tidbitslogo {
-    width:15vw;
-    height: 22vh;
+    width:auto;
+    height: auto;
     position:absolute;
     top:-3vh;
     left: 59vw;
