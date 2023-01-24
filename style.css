@@ -1,20 +1,21 @@
 @font-face {
-    font-family: "Gameplay"; 
-    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot"); 
-    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg"); }
+    font-family: "Gameplay";
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot");
+    src: url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6767a1590c8ff7aa65a304215af915a.svg#Gameplay") format("svg");
+}
 
 @font-face {
-    font-family: "DisposableDroidBB"; 
-    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot"); 
-    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg"); 
-    }
+    font-family: "DisposableDroidBB";
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot");
+    src: url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.woff") format("woff"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/249f9330482c8b6305b62435c8adfcf2.svg#DisposableDroid BB") format("svg");
+}
 
-    @font-face {
-        font-family: "VT323-Regular"; 
-        src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot"); 
-        src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg"); 
-        }
-    
+@font-face {
+    font-family: "VT323-Regular";
+    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot");
+    src: url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1417df0f3cdb8da0094f648a0f41b6ef.svg#VT323") format("svg");
+}
+
 body {
     background-color: #EDF4FE;
     text-align: center;
@@ -27,12 +28,13 @@ body {
 
 h1 {
     font-family: "DisposableDroidBB";
-    color:#00205d;
+    color: #00205d;
     font-size: 8vh;
     position: absolute;
-    top:-2vh;
-    left: 18.5vw;
+    top: -2vh;
+    left: 13vw;
 }
+
 p {
     font-family: "DisposableDroidBB";
     font-size: 3vh;
@@ -41,29 +43,27 @@ p {
 }
 
 .tidbitslogo {
-    width:15vw;
+    width: 13vw;
     height: auto;
-    position:absolute;
-    top:-5vh;
-    left: 59vw;
+    position: absolute;
+    top: 0vh;
+    left: 30vw;
 }
-
-
 
 .notintro {
     position: relative;
-    top:4vh;
+    top: 4vh;
 }
 
-.allbuth1{
+.allbuth1 {
     position: absolute;
     top: 12vh;
 }
 
 .mega {
-    width:65%;
-    position:absolute;
-    left:17.5vw;
+    width: 65%;
+    position: absolute;
+    left: 23vw;
 }
 
 button {
@@ -81,4 +81,8 @@ button {
     line-height: 0.5vw;
     position: relative;
     margin: -2vh;
+}
+
+#helo {
+    margin-button: 5px;
 }
