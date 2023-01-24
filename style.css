@@ -21,7 +21,7 @@ body {
     background-image: url(https://lh6.googleusercontent.com/38ETroIGkBRbTydePTIvsUukzhox2dIe60mrTWijejXr-30MNndWh3wvKTZ6CMmhH0g=w2400);
     height: 100%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     box-sizing: border-box;
 }
 
