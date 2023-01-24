@@ -23,6 +23,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 p {
@@ -44,9 +49,11 @@ p {
 
 .mega {
     width: 65%;
-    position: absolute;
-    left: 23vw;
+    position: relative;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 button {
