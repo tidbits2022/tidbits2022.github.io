@@ -41,11 +41,11 @@ p {
 }
 
 .tidbitslogo {
-    width:auto;
-    height: auto;
+    width: 15vw;
+    height: 22vw;
     position:absolute;
     top:-3vh;
-    left: 59vw;
+    left: 56vw;
 }
 
 
