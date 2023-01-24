@@ -42,18 +42,12 @@ p {
     top: 4vh;
 }
 
-.allbuth1 {
-    position: absolute;
-    top: 0vh;
-}
-
 .mega {
-    width: 65%;
+    width: 100%;
     position: relative;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 button {
@@ -87,7 +81,7 @@ button:hover {
     justify-content: center;
     padding-bottom: 0px;
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 
 .tidbitslogo {
@@ -105,7 +99,7 @@ h1 {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -113,8 +107,14 @@ h1 {
     color: white;
     text-align: center;
     justify-content: center;
+    padding-top: 15px;
 }
 
 .fa {
     justify-self: center;
+}
+
+.footerp {
+    color: #EDF4FF;
+    line-height: 5px;
 }
