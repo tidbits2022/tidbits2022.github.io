@@ -18,21 +18,11 @@
 
 body {
     background-color: #EDF4FE;
-    text-align: center;
     background-image: url(https://lh6.googleusercontent.com/38ETroIGkBRbTydePTIvsUukzhox2dIe60mrTWijejXr-30MNndWh3wvKTZ6CMmhH0g=w2400);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-}
-
-h1 {
-    font-family: "DisposableDroidBB";
-    color: #00205d;
-    font-size: 8vh;
-    position: absolute;
-    top: -2vh;
-    left: 13vw;
 }
 
 p {
@@ -42,14 +32,6 @@ p {
     font-weight: bold;
 }
 
-.tidbitslogo {
-    width: 13vw;
-    height: auto;
-    position: absolute;
-    top: 0vh;
-    left: 30vw;
-}
-
 .notintro {
     position: relative;
     top: 4vh;
@@ -57,13 +39,14 @@ p {
 
 .allbuth1 {
     position: absolute;
-    top: 12vh;
+    top: 0vh;
 }
 
 .mega {
     width: 65%;
     position: absolute;
     left: 23vw;
+    text-align: center;
 }
 
 button {
@@ -89,5 +72,42 @@ button:hover {
 }
 
 #helo {
-    margin-button: 5px;
+    margin-bottom: 5px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.tidbitslogo {
+    position: inline;
+    width: 170px;
+    height: 73px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-family: "DisposableDroidBB";
+    color: #00205d;
+    font-size: 8vh;
+    position: inline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5270A8;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.fa {
+    justify-self: center;
 }
