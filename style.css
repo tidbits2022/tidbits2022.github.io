@@ -83,6 +83,11 @@ button {
     margin: -2vh;
 }
 
+button:hover {
+    background-color: #5270a8;
+    transition: 0.2s;
+}
+
 #helo {
     margin-button: 5px;
 }
