@@ -35,7 +35,7 @@ h1 {
 }
 p {
     font-family: "DisposableDroidBB";
-    font-size: 4vh;
+    font-size: 3.5vh;
     color: #00205d;
     font-weight: bold;
 }
@@ -68,7 +68,7 @@ p {
 
 button {
     font-family: "DisposableDroidBB";
-    font-size: 4vh;
+    font-size: 3.5vh;
     color: white;
     background-color: #00205d;
     border-radius: 6vw;
